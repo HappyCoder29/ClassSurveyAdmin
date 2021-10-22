@@ -13,6 +13,13 @@
 		7513A80C2722520E00F1612B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7513A80A2722520E00F1612B /* Main.storyboard */; };
 		7513A80E2722521000F1612B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7513A80D2722521000F1612B /* Assets.xcassets */; };
 		7513A8112722521000F1612B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7513A80F2722521000F1612B /* LaunchScreen.storyboard */; };
+		7513A8192722529A00F1612B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7513A8182722529A00F1612B /* GoogleService-Info.plist */; };
+		7513A81B2722558400F1612B /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7513A81A2722558400F1612B /* DashboardViewController.swift */; };
+		7513A81D272255AA00F1612B /* AddClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7513A81C272255AA00F1612B /* AddClassViewController.swift */; };
+		7513A81F27225DCA00F1612B /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7513A81E27225DCA00F1612B /* Keychain.swift */; };
+		7513A823272261A300F1612B /* ClassInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7513A822272261A300F1612B /* ClassInfo.swift */; };
+		7513A825272270AD00F1612B /* ClassDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7513A824272270AD00F1612B /* ClassDetailsViewController.swift */; };
+		FC2A9D00240459BC2706465B /* Pods_ClassSurveyAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24C06F38845CD354EC1AE33 /* Pods_ClassSurveyAdmin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,15 @@
 		7513A80D2722521000F1612B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7513A8102722521000F1612B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7513A8122722521000F1612B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7513A8182722529A00F1612B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7513A81A2722558400F1612B /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		7513A81C272255AA00F1612B /* AddClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClassViewController.swift; sourceTree = "<group>"; };
+		7513A81E27225DCA00F1612B /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		7513A822272261A300F1612B /* ClassInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassInfo.swift; sourceTree = "<group>"; };
+		7513A824272270AD00F1612B /* ClassDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailsViewController.swift; sourceTree = "<group>"; };
+		D18F27881592AD2FA793ED2C /* Pods-ClassSurveyAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassSurveyAdmin.debug.xcconfig"; path = "Target Support Files/Pods-ClassSurveyAdmin/Pods-ClassSurveyAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		D24C06F38845CD354EC1AE33 /* Pods_ClassSurveyAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassSurveyAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA663C67FED1F9799285C6F5 /* Pods-ClassSurveyAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassSurveyAdmin.release.xcconfig"; path = "Target Support Files/Pods-ClassSurveyAdmin/Pods-ClassSurveyAdmin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC2A9D00240459BC2706465B /* Pods_ClassSurveyAdmin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E496F9A2F51ACB990FF8E80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D24C06F38845CD354EC1AE33 /* Pods_ClassSurveyAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A8666F6F4BBD4A6C811C11D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D18F27881592AD2FA793ED2C /* Pods-ClassSurveyAdmin.debug.xcconfig */,
+				EA663C67FED1F9799285C6F5 /* Pods-ClassSurveyAdmin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7513A7F82722520E00F1612B = {
 			isa = PBXGroup;
 			children = (
 				7513A8032722520E00F1612B /* ClassSurveyAdmin */,
 				7513A8022722520E00F1612B /* Products */,
+				5A8666F6F4BBD4A6C811C11D /* Pods */,
+				2E496F9A2F51ACB990FF8E80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +99,12 @@
 				7513A80D2722521000F1612B /* Assets.xcassets */,
 				7513A80F2722521000F1612B /* LaunchScreen.storyboard */,
 				7513A8122722521000F1612B /* Info.plist */,
+				7513A8182722529A00F1612B /* GoogleService-Info.plist */,
+				7513A81A2722558400F1612B /* DashboardViewController.swift */,
+				7513A81C272255AA00F1612B /* AddClassViewController.swift */,
+				7513A81E27225DCA00F1612B /* Keychain.swift */,
+				7513A822272261A300F1612B /* ClassInfo.swift */,
+				7513A824272270AD00F1612B /* ClassDetailsViewController.swift */,
 			);
 			path = ClassSurveyAdmin;
 			sourceTree = "<group>";
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7513A8152722521000F1612B /* Build configuration list for PBXNativeTarget "ClassSurveyAdmin" */;
 			buildPhases = (
+				CF351B34081FC32B0F7DF981 /* [CP] Check Pods Manifest.lock */,
 				7513A7FD2722520E00F1612B /* Sources */,
 				7513A7FE2722520E00F1612B /* Frameworks */,
 				7513A7FF2722520E00F1612B /* Resources */,
+				B007B74C0A0F8F8A886C7E5F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7513A8112722521000F1612B /* LaunchScreen.storyboard in Resources */,
+				7513A8192722529A00F1612B /* GoogleService-Info.plist in Resources */,
 				7513A80E2722521000F1612B /* Assets.xcassets in Resources */,
 				7513A80C2722520E00F1612B /* Main.storyboard in Resources */,
 			);
@@ -133,14 +178,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B007B74C0A0F8F8A886C7E5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClassSurveyAdmin/Pods-ClassSurveyAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClassSurveyAdmin/Pods-ClassSurveyAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClassSurveyAdmin/Pods-ClassSurveyAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF351B34081FC32B0F7DF981 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClassSurveyAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7513A7FD2722520E00F1612B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7513A8092722520E00F1612B /* ViewController.swift in Sources */,
+				7513A823272261A300F1612B /* ClassInfo.swift in Sources */,
 				7513A8052722520E00F1612B /* AppDelegate.swift in Sources */,
 				7513A8072722520E00F1612B /* SceneDelegate.swift in Sources */,
+				7513A825272270AD00F1612B /* ClassDetailsViewController.swift in Sources */,
+				7513A81D272255AA00F1612B /* AddClassViewController.swift in Sources */,
+				7513A81B2722558400F1612B /* DashboardViewController.swift in Sources */,
+				7513A81F27225DCA00F1612B /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +376,7 @@
 		};
 		7513A8162722521000F1612B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D18F27881592AD2FA793ED2C /* Pods-ClassSurveyAdmin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +405,7 @@
 		};
 		7513A8172722521000F1612B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA663C67FED1F9799285C6F5 /* Pods-ClassSurveyAdmin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
